@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECEC98B622F657DC00EFC024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC98B522F657DC00EFC024 /* AppDelegate.swift */; };
+		ECEC98B822F657DC00EFC024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC98B722F657DC00EFC024 /* ViewController.swift */; };
+		ECEC98BB22F657DC00EFC024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC98B922F657DC00EFC024 /* Main.storyboard */; };
+		ECEC98BD22F657DD00EFC024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEC98BC22F657DD00EFC024 /* Assets.xcassets */; };
+		ECEC98C022F657DD00EFC024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC98BE22F657DD00EFC024 /* LaunchScreen.storyboard */; };
+		ECEC98CB22F657DE00EFC024 /* AstroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC98CA22F657DE00EFC024 /* AstroTests.swift */; };
+		ECEC98D622F657DE00EFC024 /* AstroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC98D522F657DE00EFC024 /* AstroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECEC98C722F657DE00EFC024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEC98AA22F657DC00EFC024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEC98B122F657DC00EFC024;
+			remoteInfo = Astro;
+		};
+		ECEC98D222F657DE00EFC024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEC98AA22F657DC00EFC024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEC98B122F657DC00EFC024;
+			remoteInfo = Astro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECEC98B222F657DC00EFC024 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC98B522F657DC00EFC024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECEC98B722F657DC00EFC024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECEC98BA22F657DC00EFC024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECEC98BC22F657DD00EFC024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEC98BF22F657DD00EFC024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEC98C122F657DD00EFC024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC98C622F657DE00EFC024 /* AstroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC98CA22F657DE00EFC024 /* AstroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroTests.swift; sourceTree = "<group>"; };
+		ECEC98CC22F657DE00EFC024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEC98D122F657DE00EFC024 /* AstroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC98D522F657DE00EFC024 /* AstroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroUITests.swift; sourceTree = "<group>"; };
+		ECEC98D722F657DE00EFC024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEC98AF22F657DC00EFC024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC98C322F657DE00EFC024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC98CE22F657DE00EFC024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECEC98A922F657DC00EFC024 = {
+			isa = PBXGroup;
+			children = (
+				ECEC98B422F657DC00EFC024 /* Astro */,
+				ECEC98C922F657DE00EFC024 /* AstroTests */,
+				ECEC98D422F657DE00EFC024 /* AstroUITests */,
+				ECEC98B322F657DC00EFC024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEC98B322F657DC00EFC024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC98B222F657DC00EFC024 /* Astro.app */,
+				ECEC98C622F657DE00EFC024 /* AstroTests.xctest */,
+				ECEC98D122F657DE00EFC024 /* AstroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEC98B422F657DC00EFC024 /* Astro */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC98B522F657DC00EFC024 /* AppDelegate.swift */,
+				ECEC98B722F657DC00EFC024 /* ViewController.swift */,
+				ECEC98B922F657DC00EFC024 /* Main.storyboard */,
+				ECEC98BC22F657DD00EFC024 /* Assets.xcassets */,
+				ECEC98BE22F657DD00EFC024 /* LaunchScreen.storyboard */,
+				ECEC98C122F657DD00EFC024 /* Info.plist */,
+			);
+			path = Astro;
+			sourceTree = "<group>";
+		};
+		ECEC98C922F657DE00EFC024 /* AstroTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC98CA22F657DE00EFC024 /* AstroTests.swift */,
+				ECEC98CC22F657DE00EFC024 /* Info.plist */,
+			);
+			path = AstroTests;
+			sourceTree = "<group>";
+		};
+		ECEC98D422F657DE00EFC024 /* AstroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEC98D522F657DE00EFC024 /* AstroUITests.swift */,
+				ECEC98D722F657DE00EFC024 /* Info.plist */,
+			);
+			path = AstroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEC98B122F657DC00EFC024 /* Astro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC98DA22F657DE00EFC024 /* Build configuration list for PBXNativeTarget "Astro" */;
+			buildPhases = (
+				ECEC98AE22F657DC00EFC024 /* Sources */,
+				ECEC98AF22F657DC00EFC024 /* Frameworks */,
+				ECEC98B022F657DC00EFC024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astro;
+			productName = Astro;
+			productReference = ECEC98B222F657DC00EFC024 /* Astro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECEC98C522F657DE00EFC024 /* AstroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC98DD22F657DE00EFC024 /* Build configuration list for PBXNativeTarget "AstroTests" */;
+			buildPhases = (
+				ECEC98C222F657DE00EFC024 /* Sources */,
+				ECEC98C322F657DE00EFC024 /* Frameworks */,
+				ECEC98C422F657DE00EFC024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEC98C822F657DE00EFC024 /* PBXTargetDependency */,
+			);
+			name = AstroTests;
+			productName = AstroTests;
+			productReference = ECEC98C622F657DE00EFC024 /* AstroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECEC98D022F657DE00EFC024 /* AstroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEC98E022F657DE00EFC024 /* Build configuration list for PBXNativeTarget "AstroUITests" */;
+			buildPhases = (
+				ECEC98CD22F657DE00EFC024 /* Sources */,
+				ECEC98CE22F657DE00EFC024 /* Frameworks */,
+				ECEC98CF22F657DE00EFC024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEC98D322F657DE00EFC024 /* PBXTargetDependency */,
+			);
+			name = AstroUITests;
+			productName = AstroUITests;
+			productReference = ECEC98D122F657DE00EFC024 /* AstroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEC98AA22F657DC00EFC024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kemar Galloway";
+				TargetAttributes = {
+					ECEC98B122F657DC00EFC024 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					ECEC98C522F657DE00EFC024 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = ECEC98B122F657DC00EFC024;
+					};
+					ECEC98D022F657DE00EFC024 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = ECEC98B122F657DC00EFC024;
+					};
+				};
+			};
+			buildConfigurationList = ECEC98AD22F657DC00EFC024 /* Build configuration list for PBXProject "Astro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEC98A922F657DC00EFC024;
+			productRefGroup = ECEC98B322F657DC00EFC024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEC98B122F657DC00EFC024 /* Astro */,
+				ECEC98C522F657DE00EFC024 /* AstroTests */,
+				ECEC98D022F657DE00EFC024 /* AstroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEC98B022F657DC00EFC024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC98C022F657DD00EFC024 /* LaunchScreen.storyboard in Resources */,
+				ECEC98BD22F657DD00EFC024 /* Assets.xcassets in Resources */,
+				ECEC98BB22F657DC00EFC024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC98C422F657DE00EFC024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC98CF22F657DE00EFC024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEC98AE22F657DC00EFC024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC98B822F657DC00EFC024 /* ViewController.swift in Sources */,
+				ECEC98B622F657DC00EFC024 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC98C222F657DE00EFC024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC98CB22F657DE00EFC024 /* AstroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEC98CD22F657DE00EFC024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEC98D622F657DE00EFC024 /* AstroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECEC98C822F657DE00EFC024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEC98B122F657DC00EFC024 /* Astro */;
+			targetProxy = ECEC98C722F657DE00EFC024 /* PBXContainerItemProxy */;
+		};
+		ECEC98D322F657DE00EFC024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEC98B122F657DC00EFC024 /* Astro */;
+			targetProxy = ECEC98D222F657DE00EFC024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECEC98B922F657DC00EFC024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC98BA22F657DC00EFC024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECEC98BE22F657DD00EFC024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEC98BF22F657DD00EFC024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEC98D822F657DE00EFC024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECEC98D922F657DE00EFC024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEC98DB22F657DE00EFC024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Astro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reacthead.Astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECEC98DC22F657DE00EFC024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Astro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reacthead.Astro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECEC98DE22F657DE00EFC024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reacthead.AstroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astro.app/Astro";
+			};
+			name = Debug;
+		};
+		ECEC98DF22F657DE00EFC024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reacthead.AstroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astro.app/Astro";
+			};
+			name = Release;
+		};
+		ECEC98E122F657DE00EFC024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reacthead.AstroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astro;
+			};
+			name = Debug;
+		};
+		ECEC98E222F657DE00EFC024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reacthead.AstroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEC98AD22F657DC00EFC024 /* Build configuration list for PBXProject "Astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC98D822F657DE00EFC024 /* Debug */,
+				ECEC98D922F657DE00EFC024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC98DA22F657DE00EFC024 /* Build configuration list for PBXNativeTarget "Astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC98DB22F657DE00EFC024 /* Debug */,
+				ECEC98DC22F657DE00EFC024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC98DD22F657DE00EFC024 /* Build configuration list for PBXNativeTarget "AstroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC98DE22F657DE00EFC024 /* Debug */,
+				ECEC98DF22F657DE00EFC024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEC98E022F657DE00EFC024 /* Build configuration list for PBXNativeTarget "AstroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEC98E122F657DE00EFC024 /* Debug */,
+				ECEC98E222F657DE00EFC024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEC98AA22F657DC00EFC024 /* Project object */;
+}
