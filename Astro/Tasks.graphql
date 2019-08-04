@@ -1,0 +1,10 @@
+query getAllTasks {
+    getAllTasks {
+        ...TaskFullDetails
+    }
+}
+
+fragment TaskFullDetails on Task {
+    id
+    text
+}

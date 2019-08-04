@@ -1,0 +1,22 @@
+PODS:
+  - Apollo (0.10.1):
+    - Apollo/Core (= 0.10.1)
+  - Apollo/Core (0.10.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Apollo
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Apollo
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Apollo: 4d690a9b2e48e8820182df4b988d7a253e1ee589
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: e18f3d4c88b51369c6de5ceb708d0ecb8431ffe8
+
+COCOAPODS: 1.7.5
