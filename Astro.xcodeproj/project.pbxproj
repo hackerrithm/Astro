@@ -10,9 +10,27 @@
 		49E2F7D12BDFDE40FEE40DA9 /* Pods_AstroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E81B46D42B333ABD0B68A48 /* Pods_AstroUITests.framework */; };
 		667E9FA5A3EBE6D876BD83BF /* Pods_AstroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3B167A724C787A6EE21640 /* Pods_AstroTests.framework */; };
 		C574153ED154FC0DF6946D25 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420876641344FFE9FA9D238E /* Pods_Astro.framework */; };
+		EC11B85822FA34FD00692091 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B85722FA34FD00692091 /* Task.swift */; };
+		EC11B85A22FA368100692091 /* VMTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B85922FA368100692091 /* VMTask.swift */; };
+		EC11B85D22FA780B00692091 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B85C22FA780B00692091 /* SignInViewController.swift */; };
+		EC11B85F22FA781F00692091 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B85E22FA781F00692091 /* SignUpViewController.swift */; };
+		EC11B86122FA782E00692091 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B86022FA782E00692091 /* ProfileViewController.swift */; };
+		EC11B86322FA783B00692091 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B86222FA783B00692091 /* HomeViewController.swift */; };
+		EC11B86522FA785200692091 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B86422FA785200692091 /* ActivityViewController.swift */; };
+		EC11B86722FA78F800692091 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B86622FA78F800692091 /* MediaViewController.swift */; };
+		EC11B86922FA796600692091 /* SpacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B86822FA796600692091 /* SpacesViewController.swift */; };
+		EC11B86B22FA798B00692091 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B86A22FA798B00692091 /* DiscoverViewController.swift */; };
+		EC11B86D22FA7F5900692091 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11B86C22FA7F5900692091 /* StartScreenViewController.swift */; };
+		EC11B87422FA936B00692091 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11B87122FA894400692091 /* Discover.storyboard */; };
+		EC11B87522FA938C00692091 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11B87022FA890200692091 /* Activity.storyboard */; };
+		EC11B87622FA939000692091 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11B86F22FA886000692091 /* Home.storyboard */; };
+		EC11B87722FA939400692091 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11B87322FA8A0E00692091 /* Profile.storyboard */; };
+		EC11B87822FA939700692091 /* Spaces.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11B86E22FA87F100692091 /* Spaces.storyboard */; };
+		EC11B87922FA939B00692091 /* Media.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11B87222FA89B100692091 /* Media.storyboard */; };
 		EC9C6F2222F685BF00DA91F8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9C6F2122F685BF00DA91F8 /* API.swift */; };
 		EC9C6F2622F68A6400DA91F8 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = EC9C6F2522F68A6400DA91F8 /* schema.json */; };
 		EC9C6F2822F74DFB00DA91F8 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9C6F2722F74DFB00DA91F8 /* TaskCell.swift */; };
+		EC9C6F2C22F77AF900DA91F8 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9C6F2B22F77AF900DA91F8 /* AddTaskViewController.swift */; };
 		ECEC98B622F657DC00EFC024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC98B522F657DC00EFC024 /* AppDelegate.swift */; };
 		ECEC98B822F657DC00EFC024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC98B722F657DC00EFC024 /* ViewController.swift */; };
 		ECEC98BB22F657DC00EFC024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC98B922F657DC00EFC024 /* Main.storyboard */; };
@@ -50,9 +68,27 @@
 		866320C3F1F6FEC6B62E88F1 /* Pods-Astro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.debug.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.debug.xcconfig"; sourceTree = "<group>"; };
 		A9B7D66A6A87300C1A51F603 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.release.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
 		DB3B167A724C787A6EE21640 /* Pods_AstroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC11B85722FA34FD00692091 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EC11B85922FA368100692091 /* VMTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMTask.swift; sourceTree = "<group>"; };
+		EC11B85C22FA780B00692091 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EC11B85E22FA781F00692091 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EC11B86022FA782E00692091 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EC11B86222FA783B00692091 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC11B86422FA785200692091 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		EC11B86622FA78F800692091 /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		EC11B86822FA796600692091 /* SpacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacesViewController.swift; sourceTree = "<group>"; };
+		EC11B86A22FA798B00692091 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		EC11B86C22FA7F5900692091 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		EC11B86E22FA87F100692091 /* Spaces.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Spaces.storyboard; path = /Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Spaces.storyboard; sourceTree = "<absolute>"; };
+		EC11B86F22FA886000692091 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Home.storyboard; path = /Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Home.storyboard; sourceTree = "<absolute>"; };
+		EC11B87022FA890200692091 /* Activity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Activity.storyboard; path = /Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Activity.storyboard; sourceTree = "<absolute>"; };
+		EC11B87122FA894400692091 /* Discover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Discover.storyboard; path = /Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Discover.storyboard; sourceTree = "<absolute>"; };
+		EC11B87222FA89B100692091 /* Media.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Media.storyboard; path = /Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Media.storyboard; sourceTree = "<absolute>"; };
+		EC11B87322FA8A0E00692091 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = /Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Profile.storyboard; sourceTree = "<absolute>"; };
 		EC9C6F2122F685BF00DA91F8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		EC9C6F2522F68A6400DA91F8 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		EC9C6F2722F74DFB00DA91F8 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		EC9C6F2B22F77AF900DA91F8 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		ECEC98B222F657DC00EFC024 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEC98B522F657DC00EFC024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEC98B722F657DC00EFC024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +156,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC11B85422FA301300692091 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC11B85722FA34FD00692091 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC11B85522FA31D900692091 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC11B85B22FA4FB100692091 /* TaskCell */,
+				EC9C6F2B22F77AF900DA91F8 /* AddTaskViewController.swift */,
+				EC11B86022FA782E00692091 /* ProfileViewController.swift */,
+				EC11B86A22FA798B00692091 /* DiscoverViewController.swift */,
+				EC11B85E22FA781F00692091 /* SignUpViewController.swift */,
+				EC11B86C22FA7F5900692091 /* StartScreenViewController.swift */,
+				EC11B86822FA796600692091 /* SpacesViewController.swift */,
+				EC11B86622FA78F800692091 /* MediaViewController.swift */,
+				EC11B86422FA785200692091 /* ActivityViewController.swift */,
+				EC11B86222FA783B00692091 /* HomeViewController.swift */,
+				EC11B85C22FA780B00692091 /* SignInViewController.swift */,
+				ECEC98B722F657DC00EFC024 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC11B85622FA31E000692091 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC11B85922FA368100692091 /* VMTask.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC11B85B22FA4FB100692091 /* TaskCell */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C6F2722F74DFB00DA91F8 /* TaskCell.swift */,
+			);
+			name = TaskCell;
+			sourceTree = "<group>";
+		};
 		ECEC98A922F657DC00EFC024 = {
 			isa = PBXGroup;
 			children = (
@@ -145,12 +224,19 @@
 		ECEC98B422F657DC00EFC024 /* Astro */ = {
 			isa = PBXGroup;
 			children = (
+				EC11B85622FA31E000692091 /* ViewModel */,
+				EC11B85522FA31D900692091 /* View */,
+				EC11B85422FA301300692091 /* Model */,
 				ECEC98B522F657DC00EFC024 /* AppDelegate.swift */,
-				ECEC98B722F657DC00EFC024 /* ViewController.swift */,
 				ECEC98E622F6606200EFC024 /* Tasks.graphql */,
 				EC9C6F2122F685BF00DA91F8 /* API.swift */,
-				EC9C6F2722F74DFB00DA91F8 /* TaskCell.swift */,
+				EC11B87122FA894400692091 /* Discover.storyboard */,
+				EC11B87222FA89B100692091 /* Media.storyboard */,
 				ECEC98B922F657DC00EFC024 /* Main.storyboard */,
+				EC11B86E22FA87F100692091 /* Spaces.storyboard */,
+				EC11B87322FA8A0E00692091 /* Profile.storyboard */,
+				EC11B86F22FA886000692091 /* Home.storyboard */,
+				EC11B87022FA890200692091 /* Activity.storyboard */,
 				EC9C6F2522F68A6400DA91F8 /* schema.json */,
 				ECEC98BC22F657DD00EFC024 /* Assets.xcassets */,
 				ECEC98BE22F657DD00EFC024 /* LaunchScreen.storyboard */,
@@ -287,10 +373,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECEC98E722F6606200EFC024 /* Tasks.graphql in Resources */,
+				EC11B87822FA939700692091 /* Spaces.storyboard in Resources */,
 				EC9C6F2622F68A6400DA91F8 /* schema.json in Resources */,
 				ECEC98C022F657DD00EFC024 /* LaunchScreen.storyboard in Resources */,
 				ECEC98BD22F657DD00EFC024 /* Assets.xcassets in Resources */,
+				EC11B87522FA938C00692091 /* Activity.storyboard in Resources */,
 				ECEC98BB22F657DC00EFC024 /* Main.storyboard in Resources */,
+				EC11B87922FA939B00692091 /* Media.storyboard in Resources */,
+				EC11B87722FA939400692091 /* Profile.storyboard in Resources */,
+				EC11B87422FA936B00692091 /* Discover.storyboard in Resources */,
+				EC11B87622FA939000692091 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,8 +513,20 @@
 			files = (
 				EC9C6F2822F74DFB00DA91F8 /* TaskCell.swift in Sources */,
 				ECEC98B822F657DC00EFC024 /* ViewController.swift in Sources */,
+				EC11B86122FA782E00692091 /* ProfileViewController.swift in Sources */,
 				EC9C6F2222F685BF00DA91F8 /* API.swift in Sources */,
 				ECEC98B622F657DC00EFC024 /* AppDelegate.swift in Sources */,
+				EC11B86722FA78F800692091 /* MediaViewController.swift in Sources */,
+				EC11B85D22FA780B00692091 /* SignInViewController.swift in Sources */,
+				EC11B86D22FA7F5900692091 /* StartScreenViewController.swift in Sources */,
+				EC11B86922FA796600692091 /* SpacesViewController.swift in Sources */,
+				EC11B85822FA34FD00692091 /* Task.swift in Sources */,
+				EC11B86B22FA798B00692091 /* DiscoverViewController.swift in Sources */,
+				EC11B86522FA785200692091 /* ActivityViewController.swift in Sources */,
+				EC11B86322FA783B00692091 /* HomeViewController.swift in Sources */,
+				EC11B85F22FA781F00692091 /* SignUpViewController.swift in Sources */,
+				EC9C6F2C22F77AF900DA91F8 /* AddTaskViewController.swift in Sources */,
+				EC11B85A22FA368100692091 /* VMTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P7RVJYFQJ;
 				INFOPLIST_FILE = Astro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,6 +722,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P7RVJYFQJ;
 				INFOPLIST_FILE = Astro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

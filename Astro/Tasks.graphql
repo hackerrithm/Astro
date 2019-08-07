@@ -1,10 +1,21 @@
+fragment TaskFullDetails on Task {
+    id
+    text
+}
+
 query getAllTasks {
     getAllTasks {
         ...TaskFullDetails
     }
 }
 
-fragment TaskFullDetails on Task {
-    id
-    text
+mutation CreateNewTask($text: String!) {
+    addTask(text:  $text){
+        text
+    }
 }
+
+
+
+
+

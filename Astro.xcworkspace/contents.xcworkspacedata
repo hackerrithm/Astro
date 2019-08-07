@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Profile.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Media.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Discover.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Activity.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Home.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/kemargalloway/Documents/kemar/tutorials/apple/app/swift/Astro/Astro/Spaces.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:Astro.xcodeproj">
    </FileRef>
    <FileRef
